@@ -2,20 +2,16 @@
 
 A Python application that converts videos (particularly the famous "Bad Apple!!" animation) into ASCII art animation that can be played in a browser.
 
-![Bad Apple ASCII Demo](https://github.com/konnn04/reup_ascii_badapple/assets/thumb.png)
+![Bad Apple ASCII Demo](./assets/thumb.png)
 
 ## Demo
 
-Check out the live demo: [https://konnn04.github.io/reup_ascii_badapple/](https://konnn04.github.io/reup_ascii_badapple/)
-
-Repository: [https://github.com/konnn04/reup_ascii_badapple](https://github.com/konnn04/reup_ascii_badapple)
+Check out the live demo: [Demo](https://konnn04.github.io/reup_ascii_badapple/)
 
 ## Features
 
 - Converts video files to ASCII art frames
 - Customizable resolution and frame rate
-- Web-based player with play/pause and color inversion
-- Efficient frame rendering
 
 ## Installation
 

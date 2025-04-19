@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bad Apple </title>
+    <meta name="description" content="Bad Apple! ASCII Art Animation">
+    <meta name="keywords" content="Bad Apple, ASCII Art, Animation, Video, HTML5, JavaScript">
+    <meta name="author" content="Konnn04">
+    <meta name="theme-color" content="#000000">
+    <meta property="og:title" content="Bad Apple! ASCII Art Animation">
+    <meta property="og:description" content="Bad Apple! ASCII Art Animation">
+    <meta property="og:image" content="./assets/thumb.png">
+    <meta property="og:url" content="https://konnn04.github.io/badapple/">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="./assets/thumb.png" type="image/png">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="loading-text">Đang tải</div>
+        <span>(Sẽ tốn gần 100mb data, cân nhắc nhé!)</span>
+    </div>
+    
+    <div id="controls" style="display: none;">
+        <div id="seek-container">
+            <span id="progress">0 / 0</span>
+            <input type="range" id="seek-slider" min="0" max="100" value="0">
+        </div>
+        <div id="buttons">
+            <button id="play-btn">Play</button>
+            <button id="invert-btn">Invert Colors</button>
+        </div>
+    </div>
+    <div id="ascii-container"></div>
+    <audio id="audio-player" src="./assets/audio.mp3" preload="auto"></audio>
+    <script src="./assets/app.js"></script>
+    <!-- File data -->
+    <script src="./ascii_frames.js"></script>
+</body>
+</html>
